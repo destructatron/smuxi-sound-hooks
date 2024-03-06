@@ -1,4 +1,4 @@
-#!/run/current-system/sw/bin/bash
+#!/usr/bin/env bash
 if [[ $SMUXI_CHAT_TYPE == "Group" ]]; then
 if [[ $SMUXI_MSG == *$SMUXI_PROTOCOL_MANAGER_ME_ID* ]]; then
 paplay /$HOME/smuxi-sounds/notify.wav
